@@ -1,0 +1,29 @@
+project:
+  type: book
+
+book:
+  title: "Protocols book"
+  author: "Marcel Ferreira"
+  date: "09/08/2024"
+  chapters:
+    - index.qmd
+    
+    - intro.qmd
+    
+    - part: DNA-Extracao.qmd
+      chapters: 
+        - midikit.qmd
+    
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
